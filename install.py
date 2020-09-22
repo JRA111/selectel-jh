@@ -208,8 +208,8 @@ def main():
     temp_page_flag = "--show-progress-page"
     flags.append('--admin')
     flags.append('admin-user1:password-user1')
-    flags.append('--user-requirements-txt-url')
-    flags.append('https://raw.githubusercontent.com/selectel/selectel-jh/master/requirements.txt')
+    #flags.append('--user-requirements-txt-url')
+    #flags.append('https://raw.githubusercontent.com/selectel/selectel-jh/master/requirements.txt')
 
     # Check for flag in the argv list. This doesn't use argparse
     # because it's the only argument that's meant for the boostrap script.
